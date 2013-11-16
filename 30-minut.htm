@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>William Trowbridge - Producer</title>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<link rel="stylesheet" href="font-awesome-ie7.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome-ie7.min.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome.min.css" type="text/css" />
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/foundation.min.css" />
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/style_common.css" />
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="jquery.js"></script>
+<script src="jquery.scrollTo.js"></script>
+<script src="jquery.nav.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+<div id="wrapper"> <!-- beginning of wrapper -->
+	<div class="contain-to-grid sticky">
+
+<nav class="top-bar"> <!-- begin nav   -->
+
+<ul class="title-area">
+	   <li class="name">
+			<a href="index.htm"><span class="name">WT</span></a>
+		</li> 
+</ul>
+
+<div class="top-bar-section"> <!-- begin top section   -->
+<ul class="right">
+	<li><a href="index.htm">about</a></li>
+	<li><a href="index.htm">work</a></li>
+	<li><a href="index.html">contact</a></li>
+	<li><a href="#">blog</a></li>	
+</ul>
+
+<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+
+</div> <!--  end topbar section  -->
+</div> <!-- end fixed nav   -->
+
+</nav>
+
+<div id="slider"> 
+	<div class="container">	
+		
+			<iframe src="//player.vimeo.com/video/35805377" width="100%" height="570px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			
+		</div>
+				
+	</div> <!-- end of slider -->
+
+
+
+	<div class="section" id="section-4"> <!-- begin third section   -->
+
+		<div id="contact"> <!-- beginning of contact -->
+				<div class="row">
+				<div class="12 columns">
+				<ul class="contact">
+					<li><span class="contact-me">contact </span><span class="logo">WT</span></li>
+					<li><a target="_blank" href="mailto:trowbridgew@gmail.com">general inquiry</a></li>
+					<li><a target="_blank" href="mailto:trowbridgew@gmail.com" href="#">send script</a></li>
+					<li><a target="_blank" href="download/headshots.zip">download headshots</a></li>
+					<li><a href="index.htm">go back</a></li>
+					
+				</ul>
+				</div>
+				</div>
+			</div> <!-- end of contact section -->
+		
+		<div id="footer"> <!-- beginning of footer section -->
+				<ul class="social-media">	
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com/trowbridgew"><i class="icon-facebook"></i></a></li>
+					<li><a href="https://twitter.com/willtrow"><i class="icon-twitter"></i></a></li>
+				</ul>
+		</div> <!--- end of footer section -->
+		
+	</div> <!--  end third section  -->
+</div>
+	</div> <!-- end of wrapper -->
+
+
+<script>
+$(document).ready(function() {
+	$('#nav').onePageNav({
+		begin: function() {
+		console.log('start');
+		},
+		end: function() {
+		console.log('stop');
+		},
+	scrollOffset: 30
+	});
+	
+	$('.do').click(function(e) {
+		$('#section-4').append('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>');
+		e.preventDefault();
+	});
+	
+});
+</script>
+
+<script src="js/jquery.cbpFWSlider.min.js"></script>
+<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+
+<script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+
+<script src="js/foundation.min.js"></script>
+
+<script>
+    $(document).foundation();
+  </script>
+
+</body>
+</html>
