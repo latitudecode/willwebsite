@@ -231,6 +231,10 @@ padding-right: 5px;
     z-index: 4;
 }
 
+#cbp-fwslider > ul {
+    width: 303% !important;
+}
+
 /* about content */
 
 #about {
@@ -298,9 +302,22 @@ margin-bottom: 30px;
 .border {
 	 border-bottom: 3px solid #FFFFFF;
     bottom: 110px;
-    margin-left: 20px;
+    margin-left: 270px;
     position: absolute;
     width: 55px;
+    float: right;
+}
+
+.mask {
+z-index: 199;
+}
+
+.video-title {
+   float: right;
+    height: 20px;
+    padding-right: 25px;
+    padding-top: 30px;
+
 }
 /* contact stlying */
 
@@ -397,13 +414,8 @@ padding-right: 5px;
 }
 
 
-/* firefox */
-
-/*
-@-moz-document url-prefix() {
-   #sb-wrapper {
-        margin-top: 0px !important;
-        top: 0px !important;
-    }
+#player {
+    border: 1px solid #FFFFFF !important;
+    margin: 6px !important;
+    padding: 10px !important;
 }
-*/
