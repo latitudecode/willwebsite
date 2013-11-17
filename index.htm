@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <title>William Trowbridge - Producer</title>
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 <link rel="stylesheet" href="font-awesome-ie7.css" type="text/css" />
@@ -26,11 +27,20 @@
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 <link rel="stylesheet" type="text/css" href="css/component.css" />
 
+
+
 <script src="js/modernizr.custom.js"></script>
 
 <script src="jquery.js"></script>
 <script src="jquery.scrollTo.js"></script>
 <script src="jquery.nav.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+<script type="text/javascript" src="js/shadowbox.js"></script>
+<script type="text/javascript" src="js/shadowbox-firefox.js"></script>
+
 
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 
@@ -76,9 +86,9 @@
 			<div class="container">	
 			<div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
-					<li><a href="#"><img src="images/3.jpg" alt="img03"/></a></li>					
-					<li><a href="#"><img src="images/1.jpg" alt="img01"/></a></li>
 					<li><a href="#"><img src="images/2.jpg" alt="img02"/></a></li>
+					<li><a href="#"><img src="images/3.jpg" alt="img03"/></a></li>
+					<li><a href="#"><img src="images/1.jpg" alt="img01"/></a></li>
 				</ul>
 			</div>
 		</div>
@@ -116,13 +126,11 @@
 		<div class="row"> <!--  beginning of full width  -->
 			<div class="12 columns"> <!--  begginning of full width  -->
  				<div class="view view-first"> <!--  begin of view first  -->			
-					<img src="images/off-the-ground.jpg" /> 
-						<div class="mask"> <!-- this is the hover function   -->
-                        	<a href="30-minut.htm" class="info">Watch</a>                    
-						</div>
-								<div class="border"> <!-- border   -->
-								</div>  <!--  end border  -->                  
- 							<h2>Nyiko Beguin Off the Ground</h2> 					
+					
+					<a href="http://www.youtube.com/embed/9wp9zNz1mUA" rel="shadowbox" 						data-shadowbox="width=740,height=460">
+					<img width="100%" src="images/thumbnail.png">
+					</a>
+						
  					</div> <!-- end to view first -->
 			</div>	<!--  end full width  -->
 		</div>	<!-- end full width   -->
@@ -130,33 +138,28 @@
 		<div class="row"> <!--  begin half  -->
 			<div class="large-6 columns">	<!--  begin column  -->
  				<div class="view view-first"> <!--  begin of view first  -->							
-					<img src="images/trust-fall.jpg" />
-					<div class="mask"> <!-- this is the hover function   -->
-                        	<a href="30-minut.htm" class="info">Watch</a>                    
-					</div>	
-						<div class="border"> <!-- border   -->
-						</div>  <!--  end border  -->
- 							<h2>Trust Fall</h2>
- 					</div> <!--  end of view first  -->								    	
+					
+ 					<a href="http://www.youtube.com/embed/9wp9zNz1mUA" rel="shadowbox" 						data-shadowbox="width=740,height=460">
+					<img width="100%" src="images/trust-fall.jpg">
+					</a>
+ 													    	
 			</div> <!--  end half column  -->
+			</div>
 			
 			<div class="large-6 columns"> <!--  begin 6 column  -->
  				<div class="view view-first"> <!--  begin of view first  -->										
-					<img src="images/30-minut.jpg" />
-					<div class="mask"> <!-- this is the hover function   -->
-                        	<a href="30-minut.htm" class="info">Watch</a>
-                    </div>
-                    	<div class="border">
-                    	</div>
-                    		<h2>30 Minut</h2>
- 					</div> <!--  end of view first  -->								                        		  
+					<a href="http://www.youtube.com/embed/9wp9zNz1mUA" rel="shadowbox" 						data-shadowbox="width=740,height=460">
+					<img width="100%" src="images/off-the-ground.jpg">
+					</a>
+ 														                        		  
 				</div> <!-- end column   -->
 			</div> <!-- end half   -->
 		</div> <!-- end of work -->
 
+
 	
 	</div> <!--  end of second section  -->
-	
+		
 	<div id="image-section"> <!-- beginning of image-section -->
 <img src="images/image-section.jpg"></img>
 	</div> <!-- end of image section -->
@@ -167,9 +170,7 @@
 				<div class="row">
 				<div class="12 columns">
 				<ul class="contact">
-					<li><span class="contact-me">contact </span><span class="logo">WT</span></li>
-					<li><a target="_blank" href="mailto:will@williamtrowbridge.com">general inquiry</a></li>
-					<li><a target="_blank" href="mailto:info@williamtrowbridge.com" href="#">send script</a></li>
+					<li>Contact Me: will@williamtrowbridge.com</li>
 				</ul>
 				</div>
 				</div>
@@ -241,6 +242,13 @@ $(document).ready(function() {
 <script>
     $(document).foundation();
   </script>
+  
+  <script type="text/javascript">
+Shadowbox.init();
+</script>
+
+
+
 
 </body>
 </html>
